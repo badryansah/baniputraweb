@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bani Putra Bangsawan - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="home">
+        <nav>
+            <div class="logo">Bani Putra Bangsawan</div>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Tentang Saya</a></li>
+                <li><a href="#skills">Kemampuan</a></li>
+                <li><a href="#projects">Asal Sekolah</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h1>Hello, I'm Putra</h1>
+            <p>Saya Bersekolah di MTS Darrusallam Serui silahkan lihat Portfolio.</p>
+            <a href="#contact" class="btn">Mulai</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <h2>Tentang Saya</h2>
+            <p>Saya bernama Bani Putra Bangsawan. Ini adalah web yang saya kembangkan. Mungkin masih banyak error/sejenisnya, mohon dimaafkan bila banyak bug.</p>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Kemampuan</h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <h3>Editing</h3>
+                    <p>Saya bisa edit gambar maupun video</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Fotografer</h3>
+                    <p>Saya memiliki basic untuk foto</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Arsitek</h3>
+                    <p>Saya bisa buat rumah menggunakan software</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Service</h3>
+                    <p>Saya bisa ganti oli mobil</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Asal Sekolah</h2>
+            <p>MTS Darrusallam Serui</p>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Nama Anda" required>
+                <input type="email" name="email" placeholder="Email Anda" required>
+                <textarea name="message" placeholder="Pesan Anda" required></textarea>
+                <button type="submit" class="btn">Kirim Pesan</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Bani Putra Bangsawan. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
